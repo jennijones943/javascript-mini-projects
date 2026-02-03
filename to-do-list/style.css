@@ -1,0 +1,102 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #800080;
+    color: beige;
+    height: 50vh;
+}
+.options{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+.buttons{
+    border: none;
+    color: black;
+    size: 20px;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: #8A2BE2;
+    color: beige;
+}
+.entry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+input{
+    height: 30px;
+    width:300px;
+}
+#plus{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width:30px;
+}
+#plus:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    background-color: #66BB6A;
+}
+.list {
+    width: 100%;
+    padding: 10px;
+}
+.list div:hover{
+    background-color: #eeeeee;
+}
+.container {
+    width: 400px;
+    min-height: 60px;
+    margin: 0 auto;
+}
+ 
+.section{
+    border-bottom:1px solid  #e6e6e6;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.section.done p{
+    text-decoration: line-through;
+    color: grey;
+}
+#clear{
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: #e6e6e6;
+}
+#clear:hover{
+    background-color: #66BB6A;
+    color: black;
+}
+.delete {
+  cursor: pointer;
+  color: #bdbdbd;
+}
+.delete:hover {
+  color: #ff4d4d;
+}
